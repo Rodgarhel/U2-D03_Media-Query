@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Car Store</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/7039123fb7.js" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+    <div class="navbar">
+        <div class="title">
+            <i class="fa-solid fa-car"></i>
+            <h1>Fantasy Car Store</h1>
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+                <ul  class="nav-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+        </div>
+        
+    </div>
+
+    <section class="filters">
+        <label for="filter">Ordenar por:</label>
+        <select id="filter" name="filter">
+            <option value="precio">Precio</option>
+            <option value="marca">Marca</option>
+            <option value="año">Año</option>            
+        </select>               
+    </section>
+
+    <main class="gallery">
+        <article class="card">
+            <img src="./assets/images/car1.jpg" alt="Car 1">
+            <h2>Car Model 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="card">
+            <img src="./assets/images/car2.jpg" alt="Car 2">
+            <h2>Car Model 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article class="card">
+            <img src="./assets/images/car3.jpg" alt="Car 3">
+            <h2>Car Model 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>&copy; 2026 Fantasy Car Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
